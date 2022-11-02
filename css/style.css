@@ -46,7 +46,7 @@
 
 .grey-row{
     background-color: #D3D3D3;
-    height: 600px;
+    min-height: 600px;
 }
 
 /*header*/
@@ -93,8 +93,6 @@ header{
     line-height: 45px;
     font-size: 20px;
     text-align:right;
-    
-    
 }
 
 /*main*/
@@ -116,6 +114,15 @@ header{
     order:-1;
 }
 
+.big-description{
+    background-color: #228B22 ;
+    height: 900px;
+    width: 1200px;
+    padding: 10px;
+    margin:50px;
+    border: 2px dashed black;
+
+}
 
 /*footer*/
 footer{
